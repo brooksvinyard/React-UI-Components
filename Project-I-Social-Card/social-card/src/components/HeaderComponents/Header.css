@@ -1,1 +1,29 @@
 /* All styles for your header Components live here */
+.header-container {
+    border: 1px solid red;
+    display:flex;
+    flex-direction: row;
+}
+
+.header-container img{
+    max-height: 70px;
+}
+
+.header-content {
+    border: 1px solid blue;
+} 
+
+.header-title {
+    font-weight: bold;
+    display:flex;
+    flex-direction: row;
+} 
+    
+.header-title .title {
+    font-weight: bold;     
+}
+
+.header-title .handle {
+    font-weight: lighter;     
+    color: gray;
+}

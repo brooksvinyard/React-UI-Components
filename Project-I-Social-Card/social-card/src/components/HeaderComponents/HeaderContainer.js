@@ -1,10 +1,20 @@
 import React from 'react';
 import './Header.css';
 
+import HeaderContent from './HeaderContent';
+import ImageThumbnail from './ImageThumbnail';
+
 
 
 function HeaderContainer() {
-    return <h2>Start editing to see some magic happen!</h2>;
+    return (
+    <div className="header-container">
+        <ImageThumbnail />
+        
+        
+        <HeaderContent />
+    </div>
+    );
 }
 
 
