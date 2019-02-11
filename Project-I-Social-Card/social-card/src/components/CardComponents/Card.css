@@ -1,1 +1,37 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.card-container img {
+    width: 504px;
+    margin-right: 14px;
+    height: 253px;
+}
+
+.card-content {
+    width: 502px;
+    margin-right: 14px;
+    border: 1px solid green;
+}
+
+.card-content .title {
+    font-weight: bold; 
+    margin: 10px;
+    font-size: 14px;
+}
+
+.card-content p {
+    Margin: 0 11px;
+    font-size: 14px;
+}
+
+.card-content .site {
+    font-weight: lighter;
+    color: gray;
+    margin: 6px 0 14px 11px;
+    font-size: 14px;
+}

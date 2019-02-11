@@ -3,20 +3,30 @@
     border: 1px solid red;
     display:flex;
     flex-direction: row;
+    margin: 3px;
 }
 
 .header-container img{
-    max-height: 70px;
+    max-height: 55px;
+    border: 1px solid green;
+    margin: 2px;
 }
 
 .header-content {
     border: 1px solid blue;
 } 
 
+.header-content p {
+    font-size: 14px;
+    margin: 0 0px 12px 4px;
+} 
+
 .header-title {
     font-weight: bold;
     display:flex;
     flex-direction: row;
+    margin: 9px 3px;
+    font-size: 14px;
 } 
     
 .header-title .title {
@@ -26,4 +36,6 @@
 .header-title .handle {
     font-weight: lighter;     
     color: gray;
+    margin: 1px 4px;
+    font-size: 13px;
 }
