@@ -1,0 +1,15 @@
+.calculator {
+    margin: 5%;
+}
+
+.calc-bottom {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+
+}

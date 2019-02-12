@@ -1,0 +1,63 @@
+.number-buttons {
+    width: 154px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number {
+    background-color: white;
+    color: black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.one, .four, .seven {
+    border-left: 1px solid black;
+}
+
+.zero {
+    width: 152px;
+    border: 1px solid black;
+}
+
+.action-buttons {
+    width: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clear {
+    background-color: white;
+    color: black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 152px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+
+}
+
+.action {
+    background-color: orangered;
+    color: white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
