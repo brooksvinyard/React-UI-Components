@@ -1,1 +1,42 @@
 /* All styles for your header Components live here */
+.header-container {
+    border: 1px solid red;
+    display:flex;
+    flex-direction: row;
+    margin: 2px 2px 1px 2px;
+}
+
+.header-container img{
+    max-height: 55px;
+    border: 1px solid green;
+    margin: 3px;
+}
+
+.header-content {
+    border: 1px solid blue;
+    margin: 3px 4px 0px 1px;
+} 
+
+.header-content p {
+    font-size: 14px;
+    margin: 0 0px 12px 4px;
+} 
+
+.header-title {
+    font-weight: bold;
+    display:flex;
+    flex-direction: row;
+    margin: 9px 3px;
+    font-size: 14px;
+} 
+    
+.header-title .title {
+    font-weight: bold;     
+}
+
+.header-title .handle {
+    font-weight: lighter;     
+    color: gray;
+    margin: 1px 4px;
+    font-size: 13px;
+}
